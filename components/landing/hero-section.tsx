@@ -25,8 +25,12 @@ export function HeroSection() {
         <div className="max-w-3xl mx-auto text-center">
           {/* Logo */}
           <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg shadow-primary/20">
-              <span className="text-primary-foreground font-bold text-4xl">E</span>
+            <div className="w-24 h-24 flex items-center justify-center">
+              <img
+                src="/logo.jpeg"
+                alt="Logo da clínica"
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
           </div>
 
