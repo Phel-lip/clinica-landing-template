@@ -14,7 +14,8 @@ export function LocationSection() {
               Localização
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-              Venha nos visitar
+              Arapiraca - AL  
+              Atendimento presencial e online
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-pretty">
               Estamos localizados em um endereço de fácil acesso, prontos para 
