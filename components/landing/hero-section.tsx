@@ -5,8 +5,7 @@ import { MessageCircle, Heart, Brain, Sparkles } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background Pattern */}
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">      {/* Background Pattern */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
@@ -25,11 +24,11 @@ export function HeroSection() {
         <div className="max-w-3xl mx-auto text-center">
           {/* Logo */}
           <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 flex items-center justify-center">
+            <div className="w-32 h-32 flex items-center justify-center bg-white rounded-full p-3 shadow-lg">
               <img
-                src="/logo.jpeg"
+                src="/logo.png"
                 alt="Logo da clínica"
-                className="max-w-full max-h-full object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>

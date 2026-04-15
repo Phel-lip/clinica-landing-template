@@ -36,10 +36,12 @@ export function Navbar() {
     >
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">E</span>
-            </div>
+          <a href="#home" className="flex items-center gap-3">
+            <img
+                src="/logo.png"
+                alt="Evoluir Clínica"
+                className="w-10 h-10 md:w-12 md:h-12 object-contain"
+              />
             <span className="font-semibold text-lg text-foreground">
               Evoluir Clínica
             </span>

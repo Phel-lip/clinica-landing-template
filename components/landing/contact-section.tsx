@@ -46,7 +46,7 @@ export function ContactSection() {
               className="rounded-full px-8 py-6 text-lg border-2 group"
             >
               <a
-                href="https://instagram.com/evoluirclinica"
+                href="https://instagram.com/evoluirclinicaarapiraca"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
