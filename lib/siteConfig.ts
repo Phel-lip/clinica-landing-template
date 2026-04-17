@@ -7,8 +7,8 @@ export const siteConfig = {
   contact: {
     whatsapp: "5582991298964",
     whatsappMessage: "Olá, vim pelo site e gostaria de agendar uma avaliação",
-    instagram: "https://instagram.com/evoluirclinica",
-    email: "contato@evoluirclinica.com.br",
+    instagram: "https://instagram.com/evoluirclinicaarapiraca",
+    email: "clinicaevoluirarapiraca@gmail.com",
     phone: "(82) 99129-8964",
   },
 

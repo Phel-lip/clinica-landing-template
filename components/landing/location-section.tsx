@@ -1,5 +1,6 @@
 "use client"
 
+import { siteConfig } from "@/lib/siteConfig"
 import { MapPin, Clock, Phone } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -77,9 +78,9 @@ export function LocationSection() {
                         Contato
                       </h3>
                       <p className="text-muted-foreground text-sm leading-relaxed">
-                        WhatsApp: (82) 99999-9999
+                        WhatsApp: {siteConfig.contact.phone}
                         <br />
-                        contato@evoluirclinica.com.br
+                        {siteConfig.contact.email}
                       </p>
                     </div>
                   </div>
