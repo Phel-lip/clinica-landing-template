@@ -15,7 +15,7 @@ export function LocationSection() {
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
               Arapiraca - AL  
-              Atendimento presencial e online
+              Atendimento presencial
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-pretty">
               Estamos localizados em um endereço de fácil acesso, prontos para 
@@ -59,7 +59,7 @@ export function LocationSection() {
                       <p className="text-muted-foreground text-sm leading-relaxed">
                         Segunda a Sexta: 8h às 18h
                         <br />
-                        Sábado: 8h às 12h
+                        Sábado e Domingo: Fechado
                       </p>
                     </div>
                   </div>

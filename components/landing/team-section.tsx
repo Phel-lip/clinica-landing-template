@@ -9,6 +9,7 @@ const team = [
     name: "Tatiely",
     role: "Psicóloga",
     image: "/team/tatiely.png",
+    bio: "Atua com foco no desenvolvimento emocional e comportamental infantil.",
     qualifications: [
       "Pós-graduação em Neuropsicologia",
       "Especialista em Saúde Mental",
@@ -20,6 +21,7 @@ const team = [
     name: "Larissa",
     role: "Fonoaudióloga",
     image: "/team/larissa.png",
+    bio: "Atua no desenvolvimento da comunicação e linguagem em crianças e adultos.",
     qualifications: [
       "Graduada pela UNCISAL",
       "Formação em Libras",
@@ -31,6 +33,7 @@ const team = [
     name: "Ester",
     role: "Neuropsicopedagoga",
     image: "/team/ester.png",
+    bio: "Focada no apoio à aprendizagem e no desenvolvimento cognitivo.",
     qualifications: [
       "Especialista institucional e clínica",
       "Certificada em Neuroplasticidade",
@@ -85,6 +88,9 @@ export function TeamSection() {
                     <h3 className="text-xl font-bold text-foreground mb-4">
                       {member.name}
                     </h3>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      {member.bio}
+                    </p>
                     <ul className="space-y-2">
                       {member.qualifications.map((qual, idx) => (
                         <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">

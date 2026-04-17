@@ -1,5 +1,6 @@
 "use client"
 
+import { siteConfig, getWhatsAppLink } from "@/lib/siteConfig"
 import { Instagram, MessageCircle, Mail, MapPin } from "lucide-react"
 
 const links = {
@@ -27,15 +28,14 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
                   <span className="text-primary-foreground font-bold text-lg">E</span>
                 </div>
-                <span className="font-semibold text-lg">Evoluir Clínica</span>
-              </div>
+                  <span className="font-semibold text-lg">{siteConfig.clinic.name}</span>              </div>
               <p className="text-background/70 text-sm leading-relaxed mb-6">
-                Cuidando do desenvolvimento com propósito. 
-                Psicologia, Fonoaudiologia e Neuropsicopedagogia.
+                {siteConfig.clinic.description}  
+                 Psicologia, Fonoaudiologia e Neuropsicopedagogia.
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com/evoluirclinica"
+                  href={siteConfig.contact.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
@@ -44,7 +44,7 @@ export function Footer() {
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://wa.me/5582999999999"
+                  href={getWhatsAppLink()}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
@@ -96,18 +96,18 @@ export function Footer() {
                 <li className="flex items-start gap-2 text-background/70 text-sm">
                   <MapPin className="w-4 h-4 shrink-0 mt-0.5" />
                   <span>
-                    Av. Ceci Cunha, 1397
+                    {siteConfig.location.address}
                     <br />
-                    Novo Horizonte, Arapiraca
+                    {siteConfig.location.city}
                   </span>
                 </li>
                 <li className="flex items-center gap-2 text-background/70 text-sm">
                   <MessageCircle className="w-4 h-4 shrink-0" />
-                  <span>(82) 99999-9999</span>
+                  <span>{siteConfig.contact.phone}</span>
                 </li>
                 <li className="flex items-center gap-2 text-background/70 text-sm">
                   <Mail className="w-4 h-4 shrink-0" />
-                  <span>contato@evoluirclinica.com.br</span>
+                  <span>{siteConfig.contact.email}</span>
                 </li>
               </ul>
             </div>
@@ -116,7 +116,7 @@ export function Footer() {
           {/* Bottom */}
           <div className="pt-8 border-t border-background/10 text-center text-background/50 text-sm">
             <p>
-              © {new Date().getFullYear()} Evoluir Clínica. Todos os direitos reservados.
+              © {new Date().getFullYear()} {siteConfig.clinic.name}. Todos os direitos reservados.
             </p>
           </div>
         </div>

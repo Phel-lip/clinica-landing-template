@@ -63,7 +63,7 @@ export function Navbar() {
           <div className="hidden md:block">
             <Button asChild className="rounded-full px-6">
               <a
-                href="https://wa.me/5582999999999"
+                href="https://wa.me/5582991298964?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -98,7 +98,7 @@ export function Navbar() {
               ))}
               <Button asChild className="rounded-full mt-2 w-full">
                 <a
-                  href="https://wa.me/5582999999999"
+                  href="https://wa.me/5582991298964?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

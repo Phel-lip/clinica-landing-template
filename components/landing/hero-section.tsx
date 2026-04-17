@@ -1,5 +1,6 @@
 "use client"
 
+import { getWhatsAppLink } from "@/lib/siteConfig"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, Heart, Brain, Sparkles } from "lucide-react"
 
@@ -61,13 +62,13 @@ export function HeroSection() {
               className="rounded-full px-8 py-6 text-lg shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all"
             >
               <a
-                href="https://wa.me/5582999999999"
+                href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
                 <MessageCircle className="w-5 h-5" />
-                Agendar consulta pelo WhatsApp
+                Agendar consulta agora
               </a>
             </Button>
             <Button

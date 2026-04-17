@@ -1,5 +1,6 @@
 "use client"
 
+import { siteConfig, getWhatsAppLink } from "@/lib/siteConfig"
 import { Button } from "@/components/ui/button"
 import { MessageCircle, Instagram, ArrowRight } from "lucide-react"
 
@@ -29,7 +30,7 @@ export function ContactSection() {
               className="rounded-full px-8 py-6 text-lg shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all group"
             >
               <a
-                href="https://wa.me/5582999999999?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação"
+                href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
@@ -46,7 +47,7 @@ export function ContactSection() {
               className="rounded-full px-8 py-6 text-lg border-2 group"
             >
               <a
-                href="https://instagram.com/evoluirclinicaarapiraca"
+                href={siteConfig.contact.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
