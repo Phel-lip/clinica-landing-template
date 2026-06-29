@@ -33,11 +33,11 @@ Além da adaptação visual e de conteúdo, o projeto envolveu manutenção da e
 
 ## Tecnologias Utilizadas
 
+- TypeScript
 - React
 - Next.js
-- TypeScript
 - Tailwind CSS
-- Vercel
+- Vercel (deploy)
 
 ## Estrutura do Projeto
 
