@@ -1,81 +1,77 @@
-# Evoluir Clínica - Professional Healthcare Landing Page
+# Clinic Landing
 
-Landing page profissional desenvolvida para uma clínica multidisciplinar, com foco em apresentação institucional, experiência responsiva e conversão via WhatsApp.
+Landing page desenvolvida para uma clínica real da área da saúde, com foco em apresentação institucional, experiência do usuário e conversão por meio de contato direto.
 
-O projeto foi pensado para transmitir confiança, clareza e acolhimento, ao mesmo tempo em que facilita o contato direto com potenciais pacientes.
+Este projeto marcou meu primeiro trabalho entregue para um cliente real e teve como principal objetivo adaptar e personalizar uma aplicação moderna para atender às necessidades do negócio.
+
+## Preview
+
+![Preview do projeto](./preview.png)
 
 ## Demonstração
 
-Acesse a versão online:  
+Acesse a versão online:
+
 https://evoluir-clinica.vercel.app/
-
-## Repositório
-
-Código-fonte:  
-https://github.com/Phel-lip/clinica-landing-template
 
 ## Sobre o Projeto
 
-A landing page foi criada para uma clínica real da área da saúde, reunindo informações essenciais de forma estratégica e acessível.
+A landing page foi personalizada para uma clínica multidisciplinar, reunindo informações institucionais, especialidades, equipe, localização e canais de contato em uma interface responsiva e organizada.
 
-O site apresenta:
+Além da adaptação visual e de conteúdo, o projeto envolveu manutenção da estrutura existente, organização dos componentes e ajustes para publicação em produção.
 
-- Hero section com CTA principal
-- Seção sobre a clínica
-- Especialidades oferecidas
-- Equipe profissional
-- Localização
-- Contato com integração para WhatsApp e Instagram
+## Funcionalidades
 
-O objetivo foi desenvolver uma estrutura moderna, responsiva e adaptável para negócios locais que precisam de presença online profissional.
-
-## Objetivos do Projeto
-
-- Criar uma landing page clara e confiável
-- Melhorar a apresentação digital da clínica
-- Facilitar o agendamento e o contato
-- Estruturar um modelo reutilizável para futuros projetos comerciais
+- Landing page institucional
+- Layout responsivo
+- Navegação entre seções
+- CTA para contato via WhatsApp
+- Integração com Instagram
+- Informações sobre equipe e especialidades
+- Localização da clínica
+- Estrutura reutilizável para outros negócios locais
 
 ## Tecnologias Utilizadas
 
-- Next.js
 - React
+- Next.js
 - TypeScript
 - Tailwind CSS
 - Vercel
 
-## Funcionalidades
-
-- Layout responsivo
-- Navegação fluida entre seções
-- Botões de chamada para ação
-- Integração com WhatsApp
-- Estrutura visual moderna
-- Organização em componentes reutilizáveis
-
 ## Estrutura do Projeto
 
-- `app/` → páginas principais
-- `components/` → componentes da interface
-- `public/` → imagens e arquivos estáticos
-- `lib/` → configurações e utilidades
+- Organização em componentes reutilizáveis
+- Estrutura baseada no App Router do Next.js
+- Estilização com Tailwind CSS
+- Componentização da interface
+- Deploy realizado na Vercel
 
 ## Como Executar Localmente
 
 ```bash
-1. Clone o repositório: git clone https://github.com/Phel-lip/clinica-landing-template.git
-2. cd clinica-landing-template
-3. npm install
-4. npm run dev
-5. http://localhost:3000
+1. Clone o repositório:
+git clone https://github.com/Phel-lip/clinica-landing-template.git
+
+2. Acesse a pasta:
+cd clinica-landing-template
+
+3. Instale as dependências:
+npm install
+
+4. Execute o projeto:
+npm run dev
 ```
 
-## Aplicação Prática
+## Objetivo
 
-Este projeto também funciona como base para futuras landing pages voltadas a clínicas, profissionais da saúde e outros negócios locais, podendo ser adaptado para diferentes contextos.
+Este projeto representa meu primeiro trabalho desenvolvido para um cliente real e demonstra minha capacidade de adaptar, manter e personalizar aplicações modernas para atender requisitos específicos de negócio.
+
+A experiência também ampliou meu contato com projetos estruturados em React, Next.js e TypeScript, reforçando minha compreensão da organização de aplicações Front-End modernas.
 
 ## Autor
 
 Thasso Holanda
-GitHub: https://github.com/Phel-lip
-LinkedIn: https://linkedin.com/in/thassoholanda
+
+GitHub:
+https://github.com/Phel-lip
