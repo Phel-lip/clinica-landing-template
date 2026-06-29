@@ -6,7 +6,7 @@ Este projeto marcou meu primeiro trabalho entregue para um cliente real e teve c
 
 ## Preview
 
-![Preview do projeto](./preview.png)
+![Preview do projeto](./proj-clinica.png)
 
 ## Demonstração
 
