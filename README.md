@@ -2,7 +2,7 @@
 
 Landing page desenvolvida para uma clínica real da área da saúde, com foco em apresentação institucional, experiência do usuário e conversão por meio de contato direto.
 
-Este projeto marcou meu primeiro trabalho entregue para um cliente real e teve como principal objetivo adaptar e personalizar uma aplicação moderna para atender às necessidades do negócio.
+Este projeto marcou meu primeiro trabalho entregue para um cliente real e aprofundou meu contato com aplicações modernas baseadas em React, Next.js e TypeScript por meio de adaptação, manutenção e personalização de uma solução existente.
 
 ## Preview
 
@@ -18,7 +18,7 @@ https://evoluir-clinica.vercel.app/
 
 A landing page foi personalizada para uma clínica multidisciplinar, reunindo informações institucionais, especialidades, equipe, localização e canais de contato em uma interface responsiva e organizada.
 
-Além da adaptação visual e de conteúdo, o projeto envolveu manutenção da estrutura existente, organização dos componentes e ajustes para publicação em produção.
+O projeto envolveu adaptação de conteúdo, manutenção da estrutura existente, organização dos componentes e publicação da aplicação em produção.
 
 ## Funcionalidades
 
@@ -37,7 +37,7 @@ Além da adaptação visual e de conteúdo, o projeto envolveu manutenção da e
 - React
 - Next.js
 - Tailwind CSS
-- Vercel (deploy)
+- Vercel (Deploy)
 
 ## Estrutura do Projeto
 
@@ -65,9 +65,9 @@ npm run dev
 
 ## Objetivo
 
-Este projeto representa meu primeiro trabalho desenvolvido para um cliente real e demonstra minha capacidade de adaptar, manter e personalizar aplicações modernas para atender requisitos específicos de negócio.
+Este projeto demonstra minha capacidade de adaptar e manter aplicações Front-End modernas para atender necessidades reais de negócio.
 
-A experiência também ampliou meu contato com projetos estruturados em React, Next.js e TypeScript, reforçando minha compreensão da organização de aplicações Front-End modernas.
+Além da entrega para um cliente real, a experiência ampliou meu contato com arquitetura baseada em componentes, organização de projetos React/Next.js e fluxo de publicação em produção.
 
 ## Autor
 
