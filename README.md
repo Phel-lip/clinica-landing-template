@@ -1,3 +1,13 @@
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Figma](https://img.shields.io/badge/Design-Figma-F24E1E?logo=figma&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)
+
+---
+
 # Evoluir Clínica
 
 Landing page institucional desenvolvida para a **Evoluir Clínica**, especializada em atendimento infantil nas áreas de Psicologia, Fonoaudiologia e Neuropsicopedagogia.
